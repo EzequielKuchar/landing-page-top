@@ -1,0 +1,105 @@
+/* BASIC STYLE */
+
+.hero, .footer {
+    background-color: #1F2937;
+    color: #f9faf8;
+}
+
+.hero h1 {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.hero p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+#header-logo-text {
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+button {
+    background-color: #3882f6;
+    color: white;
+    border-radius: 6px;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0;
+}
+
+.center {
+    background-color: #E5E7EB;
+    font-size: 36px;
+    color:#1F2937;
+    font-family: light;
+    font-style: italic;
+}
+
+.bottom {
+    background-color: #3882f6;
+    color: white;
+
+    border-radius: 6px;
+}
+
+
+/* --- */
+
+
+.nav-var ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+#header-logo-text {
+    margin-right: auto;
+}
+
+.container {
+    display: flex;
+    gap: 10px;
+}
+
+.top {
+    text-align: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    width: 150px; 
+}
+
+.card img {
+    width: 150px;
+    height: 150px;
+    border: 3px solid #298bc4;
+    border-radius: 14px;
+}
+
+.top .container {
+  justify-content: center;
+  gap: 30px;
+}
+
+.top p {
+    margin-top: 5px;
+}
+
+.bottom .container {
+    justify-content: center;
+    align-items: center;
+}
+
+.bottom .container button {
+    border: 2px solid #FFFFFF;
+}
