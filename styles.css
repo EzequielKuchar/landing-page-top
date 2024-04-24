@@ -1,16 +1,16 @@
 /* BASIC STYLE */
 
-.hero, .footer {
+header, footer {
     background-color: #1F2937;
     color: #f9faf8;
 }
 
-.hero h1 {
+header h1 {
     font-size: 48px;
     font-weight: bolder;
 }
 
-.hero p {
+.header p {
     font-size: 18px;
     color: #E5E7EB;
 }
