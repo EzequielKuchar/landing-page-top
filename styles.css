@@ -69,23 +69,24 @@ body {
 /* --- */
 
 header {
-    padding: 1vh 15vw 5vh 15vw;
+    padding: 1vh 25vw 5vh 25vw;
     height: 25%;
 }
 .top {
-    height: 25%;
+    height: 20%;
 }
+
 .center {
-    padding: 5vh 20vw 5vh 20vw;
+    padding: 5vh 25vw 5vh 25vw;
     height: 25%;
 }
 .bottom {
     height: 10%;
-    margin: 5vh 15vw 5vh 15vw;
+    margin: 5vh 25vw 5vh 25vw;
 }
 footer {
-    height: 5%;
     text-align: center;
+    padding: 1vh;
 }
 
 header .container {
@@ -106,9 +107,11 @@ figure {
     align-items: center;
 }
 
+a {
+    color: inherit;
+} 
+
 figure.container {
-    
-    
     width: 50%;
     min-height: fit-content;
     padding-bottom: 0;
@@ -154,7 +157,7 @@ figure.container {
 }
 
 .top h2 {
-    margin: 3%;
+    margin: 2%;
 }
 
 .bottom .container {
@@ -173,6 +176,7 @@ figure.container {
     text-align: right;
     margin-top: 3%;
     margin-right: 3%;
+    margin-bottom: 0;
     font-weight: bold;
 }
 
